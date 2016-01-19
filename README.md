@@ -19,7 +19,7 @@ arrays in C.
 
 This was something that was confusing to learn because it always said that if you want to
 access an index i,j in an array using pointers (e.g. int array[i][j]), and the pointer to that
-array is "int *pointer_array (*) then you access that index by dereferencing*(*(pointer_array + i) + j),
+array is "int *pointer_array then you access that index by dereferencing*(*(pointer_array + i) + j),
 but if i and j are, say, 1 and 2, it accesses array[3][0] instead of array[1][2]. This led me to make
 this program and test it out myself, since the details of this organization did not appear to be readily available
 from quick google searches.
